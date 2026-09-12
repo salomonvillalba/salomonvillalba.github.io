@@ -31,7 +31,7 @@ body{
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(176, 231, 255);
     display: flex;
     flex-direction: column;
@@ -45,6 +45,7 @@ body{
     align-items: center;
     text-align: center;
     font-size: 30px;
+    font-weight: 300;
     color: #9469fc;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }

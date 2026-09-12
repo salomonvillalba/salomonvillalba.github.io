@@ -19,5 +19,18 @@
         <p><a href="mailto:salomon@salomonvillalba.com">salomon@salomonvillalba.com</a> </p>
         <p><a href="tel:202-766-6278">(202) 766-6278</a></p>
     </div>
+    <script>
+        var bgVideo = document.querySelector('.bg-video');
+        bgVideo.muted = true;
+        var startPlay = function () {
+            var p = bgVideo.play();
+            if (p !== undefined) {
+                p.catch(function () {
+                    document.addEventListener('touchstart', startPlay, { once: true });
+                });
+            }
+        };
+        startPlay();
+    </script>
 </body>
 </html>

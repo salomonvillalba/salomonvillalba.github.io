@@ -45,11 +45,7 @@ body{
     align-items: center;
     text-align: center;
     font-size: 30px;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-}
-
-.wrapper p a{
-    color: rgb(176, 231, 255);
+    color: #9469fc;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
